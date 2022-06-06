@@ -1,4 +1,4 @@
-# Debian advisory converter
+# Debian advisory converter (WIP)
 
 ## Prerequisites
 
