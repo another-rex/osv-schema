@@ -1,0 +1,304 @@
+98796ea043 main/zstd: use meson
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+ pkgver=1.5.2
+-pkgrel=0
++pkgrel=1
+487f3a0dd9 main/zstd: upgrade to 1.5.2
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+-pkgver=1.5.1
+-pkgrel=2
++pkgver=1.5.2
++pkgrel=0
+a95d837f0e main/zstd: fix wrong prefix in libzstd.pc
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+ pkgver=1.5.1
+-pkgrel=1
++pkgrel=2
+8b64f50588 main/zstd: fix compile flags
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+ pkgver=1.5.1
+-pkgrel=0
++pkgrel=1
+32a3308596 main/zstd: upgrade to 1.5.1
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+-pkgver=1.5.0
++pkgver=1.5.1
+ pkgrel=0
+cd5b08d0d3 main/zstd: upgrade to 1.5.0
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -5,2 +5,2 @@
+-pkgver=1.4.9
+-pkgrel=1
++pkgver=1.5.0
++pkgrel=0
+2e68211f47 main/zstd: make so tests don't rebuild the library
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +5,2 @@
+ pkgver=1.4.9
+-pkgrel=0
++pkgrel=1
+b597d3a00b main/zstd: upgrade to 1.4.9
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.5
+-pkgrel=3
++pkgver=1.4.9
++pkgrel=0
+5a73343468 main/zstd: downgrade to 1.4.5
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.8
+-pkgrel=0
++pkgver=1.4.5
++pkgrel=3
+5be10f2936 main/zstd: upgrade to 1.4.8
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.5
+-pkgrel=2
++pkgver=1.4.8
++pkgrel=0
+3bc55a4361 main/zstd: build parallel zstd
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+ pkgver=1.4.5
+-pkgrel=1
++pkgrel=2
+3504242ee0 main/zstd: fix build wih gcc10
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+ pkgver=1.4.5
+-pkgrel=0
++pkgrel=1
+c773d6d0d9 main/zstd: upgrade to 1.4.5
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.4
+-pkgrel=1
++pkgver=1.4.5
++pkgrel=0
+9b7d37db60 main/zstd: fix bus error on armhf
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+ pkgver=1.4.4
+-pkgrel=0
++pkgrel=1
+f8d13bb1cc main/zstd: upgrade to 1.4.4, use https
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.3
++pkgver=1.4.4
+ pkgrel=0
+afc81f5bce main/zstd: upgrade to 1.4.3
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.2
++pkgver=1.4.3
+ pkgrel=0
+28e517c338 main/zstd: upgrade to 1.4.2
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.1
++pkgver=1.4.2
+ pkgrel=0
+985952c98f main/zstd: upgrade to 1.4.1
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.4.0
++pkgver=1.4.1
+ pkgrel=0
+9b3b5cdef6 main/zstd: upgrade to 1.4.0
+
+diff --git a/main/zstd/APKBUILD b/main/zstd/APKBUILD
+--- a/main/zstd/APKBUILD
++++ b/main/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.8
++pkgver=1.4.0
+ pkgrel=0
+02c07e0013 community/zstd: upgrade to 1.3.8
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.7
+-pkgrel=1
++pkgver=1.3.8
++pkgrel=0
+43460992f3 community/zstd: fix ~15% speed degradation on x86*
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+ pkgver=1.3.7
+-pkgrel=0
++pkgrel=1
+b0c4913719 community/zstd: upgrade to 1.3.7
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.5
++pkgver=1.3.7
+ pkgrel=0
+c645fdc264 community/ztd: upgrade to 1.3.5
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.4
++pkgver=1.3.5
+ pkgrel=0
+878fa872a3 community/zstd: upgrade to 1.3.4, clarify license
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.3
+-pkgrel=1
++pkgver=1.3.4
++pkgrel=0
+c335aab396 community/zstd: force -O2, split libs and static subpackage
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+ pkgver=1.3.3
+-pkgrel=0
++pkgrel=1
+dad66291a6 community/zstd: upgrade to 1.3.3
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.2
++pkgver=1.3.3
+ pkgrel=0
+a3decab937 community/zstd: upgrade to 1.3.2
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.1
++pkgver=1.3.2
+ pkgrel=0
+6ea9289d70 community/zstd: upgrade to 1.3.1
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.3.0
++pkgver=1.3.1
+ pkgrel=0
+7cbab367dd community/zstd: upgrade to 1.3.0
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.2.0
++pkgver=1.3.0
+ pkgrel=0
+ba84e1bde7 community/zstd: upgrade to 1.2.0
+
+diff --git a/community/zstd/APKBUILD b/community/zstd/APKBUILD
+--- a/community/zstd/APKBUILD
++++ b/community/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.1.4
++pkgver=1.2.0
+ pkgrel=0
+13bcbcfb7d testing/zstd: upgrade to 1.1.4
+
+diff --git a/testing/zstd/APKBUILD b/testing/zstd/APKBUILD
+--- a/testing/zstd/APKBUILD
++++ b/testing/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.1.3
++pkgver=1.1.4
+ pkgrel=0
+15b6d80f66 testing/zstd: upgrade to 1.1.3 and remove work-around
+
+diff --git a/testing/zstd/APKBUILD b/testing/zstd/APKBUILD
+--- a/testing/zstd/APKBUILD
++++ b/testing/zstd/APKBUILD
+@@ -4,2 +4,2 @@
+-pkgver=1.1.1
++pkgver=1.1.3
+ pkgrel=0
+ca73932d8c testing/zstd: new aport
+
+diff --git a/testing/zstd/APKBUILD b/testing/zstd/APKBUILD
+--- /dev/null
++++ b/testing/zstd/APKBUILD
+@@ -0,0 +4,2 @@
++pkgver=1.1.1
++pkgrel=0
